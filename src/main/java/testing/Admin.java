@@ -24,7 +24,7 @@ public class Admin {
 	WebDriver driver;
 	FileInputStream fis;
 	Properties prt=new Properties();
-	private static Logger log=Logger.getLogger(testing.Teacher.class);
+	private static Logger log=Logger.getLogger(testing.Admin.class);
 	/**
 	 * to open chrome browser and navigate to byndr site
 	 * @throws IOException
@@ -47,7 +47,7 @@ public class Admin {
 	public void login(){
 		driver.findElement(By.xpath(prt.getProperty("signin"))).click();
 		driver.findElement(By.xpath(prt.getProperty("username"))).sendKeys("satish_admin");
-		driver.findElement(By.xpath(prt.getProperty("password"))).sendKeys("password");
+		driver.findElement(By.xpath(prt.getProperty("pswd"))).sendKeys("password");
 		driver.findElement(By.xpath(prt.getProperty("login"))).click();
 		log.info("login completed successfully ");
 	}
@@ -61,8 +61,8 @@ public class Admin {
 		driver.findElement(By.xpath(prt.getProperty("addstudent"))).click();
 		driver.findElement(By.xpath(prt.getProperty("fullname"))).sendKeys("vani");
 		driver.findElement(By.xpath(prt.getProperty("email"))).sendKeys("vani123@gmail.com");
-		driver.findElement(By.xpath(prt.getProperty("spassword"))).sendKeys("77890");
-		driver.findElement(By.xpath(prt.getProperty("phn"))).sendKeys("0987654322");
+		driver.findElement(By.xpath(prt.getProperty("password"))).sendKeys("77890");
+		driver.findElement(By.xpath(prt.getProperty("phone"))).sendKeys("0987654322");
 		driver.findElement(By.xpath(prt.getProperty("prntPhn"))).sendKeys("0123455777");
 		driver.findElement(By.xpath(prt.getProperty("studentId"))).sendKeys("98754");
 		driver.findElement(By.xpath(prt.getProperty("department"))).click();
@@ -76,7 +76,7 @@ public class Admin {
 	/**
 	 * to take attendance 
 	 */
-	@Test(priority=1)
+	/*@Test(priority=1)
 	public void attendance() throws InterruptedException{
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.findElement(By.xpath(prt.getProperty("departments"))).click();

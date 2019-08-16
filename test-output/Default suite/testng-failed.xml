@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.byndr.testcases.LoginTest">
+      <class name="testing.AdminAddCourse">
         <methods>
-          <include name="byndrTitleTest"/>
-          <include name="loginTest"/>
-          <include name="init"/>
+          <include name="open"/>
+          <include name="courseTest"/>
+          <include name="addCourse"/>
         </methods>
-      </class> <!-- com.byndr.testcases.LoginTest -->
+      </class> <!-- testing.AdminAddCourse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
