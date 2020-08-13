@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="none">
+<suite name="Suite" parallel="false methods tests classes instances ">
   <test name="Test">
     <classes>
-      <class name="com.byndr.Student"/>
+      <class name="testing.AdminAddFaculty"/>
       <class name="com.byndr.FirstPage"/>
       <class name="com.byndr.HomepageLinks"/>
       <class name="com.byndr.Teacher"/>

@@ -1,0 +1,51 @@
+2020-08-10 13:37:29 INFO  TestBase:82 - Chrome browser initiliazed
+2020-08-10 13:37:31 INFO  TestBase:89 - window maximize
+2020-08-10 13:37:31 INFO  TestBase:92 - delete all cokkies.
+2020-08-10 13:37:32 INFO  TestBase:95 - URL Enteredhttp://www.byndr.in
+2020-08-10 13:37:32 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:38:03 INFO  TestBase:82 - Chrome browser initiliazed
+2020-08-10 13:38:05 INFO  TestBase:89 - window maximize
+2020-08-10 13:38:05 INFO  TestBase:92 - delete all cokkies.
+2020-08-10 13:38:12 INFO  TestBase:95 - URL Enteredhttp://www.byndr.com
+2020-08-10 13:38:12 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:42:23 INFO  TestBase:82 - Chrome browser initiliazed
+2020-08-10 13:42:25 INFO  TestBase:89 - window maximize
+2020-08-10 13:42:25 INFO  TestBase:92 - delete all cokkies.
+2020-08-10 13:42:33 INFO  TestBase:95 - URL Enteredhttp://www.byndr.com
+2020-08-10 13:42:33 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:45:17 INFO  TestBase:82 - Chrome browser initiliazed
+2020-08-10 13:45:19 INFO  TestBase:89 - window maximize
+2020-08-10 13:45:19 INFO  TestBase:92 - delete all cokkies.
+2020-08-10 13:45:27 INFO  TestBase:95 - URL Enteredhttp://www.byndr.com
+2020-08-10 13:45:28 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:47:05 INFO  TestBase:82 - Chrome browser initiliazed
+2020-08-10 13:47:07 INFO  TestBase:89 - window maximize
+2020-08-10 13:47:07 INFO  TestBase:92 - delete all cokkies.
+2020-08-10 13:47:13 INFO  TestBase:95 - URL Enteredhttp://www.byndr.com
+2020-08-10 13:47:13 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:47:14 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:47:14 INFO  LoginPage:46 - signin successfully
+2020-08-10 13:47:15 INFO  LoginPage:50 - enter user name satish_admin
+2020-08-10 13:47:15 INFO  LoginPage:54 - Enter password  : password
+2020-08-10 13:47:16 INFO  TestBase:108 - implicit wait max 20 sec
+2020-08-10 13:47:16 INFO  LoginPage:59 - Login successfully 
+2020-08-10 17:21:51 INFO  TestBase:67 - Chrome browser initiliazed
+2020-08-10 17:21:53 INFO  TestBase:74 - window maximize
+2020-08-10 17:21:53 INFO  TestBase:76 - delete all cokkies.
+2020-08-10 17:22:02 INFO  TestBase:78 - URL Enteredhttp://www.byndr.com
+2020-08-10 17:22:02 INFO  TestBase:92 - implicit wait max 20 sec
+2020-08-10 17:22:05 INFO  TestBase:67 - Chrome browser initiliazed
+2020-08-10 17:22:08 INFO  TestBase:74 - window maximize
+2020-08-10 17:22:08 INFO  TestBase:76 - delete all cokkies.
+2020-08-10 17:22:15 INFO  TestBase:78 - URL Enteredhttp://www.byndr.com
+2020-08-10 17:22:15 INFO  TestBase:92 - implicit wait max 20 sec
+2020-08-10 17:22:19 INFO  TestBase:67 - Chrome browser initiliazed
+2020-08-10 17:24:20 INFO  TestBase:68 - Chrome browser initiliazed
+2020-08-10 17:24:22 INFO  TestBase:75 - window maximize
+2020-08-10 17:24:22 INFO  TestBase:77 - delete all cokkies.
+2020-08-10 17:24:36 INFO  TestBase:79 - URL Enteredhttp://www.byndr.com
+2020-08-10 17:24:36 INFO  TestBase:93 - implicit wait max 20 sec
+2020-08-10 17:24:40 INFO  LoginPage:31 - signin successfully
+2020-08-10 17:24:40 INFO  LoginPage:33 - enter user name password
+2020-08-10 17:24:40 INFO  LoginPage:35 - Enter password  : password
+2020-08-10 17:24:44 INFO  LoginPage:37 - Login successfully 
